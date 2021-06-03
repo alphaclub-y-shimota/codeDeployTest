@@ -3,6 +3,3 @@ os: linux
 files:
   - source: /test.txt
     destination: /home/ec2-user/test
-hooks:
-  ApplicationStart:
-    - location: start.sh
